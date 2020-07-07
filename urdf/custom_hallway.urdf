@@ -1,0 +1,2452 @@
+<?xml version="1.0" ?>
+<robot name="custom_hallway">
+  <link name="custom_hallway__Wall_100">
+    <inertial>
+      <mass value="0"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <collision name="custom_hallway__Wall_100_Collision">
+      <origin rpy="0       0      -0.78539" xyz="-9.07255 -3.12646  1.25"/>
+      <geometry>
+        <box size="1 0.15 2.5"/>
+      </geometry>
+    </collision>
+    <visual name="custom_hallway__Wall_100_Visual">
+      <origin rpy="0       0      -0.78539" xyz="-9.07255 -3.12646  1.25"/>
+      <geometry>
+        <box size="1 0.15 2.5"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="custom_hallway__Wall_101">
+    <inertial>
+      <mass value="0"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <collision name="custom_hallway__Wall_101_Collision">
+      <origin rpy="0      0     -1.5708" xyz="-8.77204 -4.47698  1.25"/>
+      <geometry>
+        <box size="2.25 0.15 2.5"/>
+      </geometry>
+    </collision>
+    <visual name="custom_hallway__Wall_101_Visual">
+      <origin rpy="0      0     -1.5708" xyz="-8.77204 -4.47698  1.25"/>
+      <geometry>
+        <box size="2.25 0.15 2.5"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="custom_hallway__Wall_102">
+    <inertial>
+      <mass value="0"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <collision name="custom_hallway__Wall_102_Collision">
+      <origin rpy="0       0      -1.98351" xyz="-9.12803 -6.34003  1.25"/>
+      <geometry>
+        <box size="1.92514 0.15 2.5"/>
+      </geometry>
+    </collision>
+    <visual name="custom_hallway__Wall_102_Visual">
+      <origin rpy="0       0      -1.98351" xyz="-9.12803 -6.34003  1.25"/>
+      <geometry>
+        <box size="1.92514 0.15 2.5"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="custom_hallway__Wall_103">
+    <inertial>
+      <mass value="0"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <collision name="custom_hallway__Wall_103_Collision">
+      <origin rpy="0      0     -1.5708" xyz="-9.48403 -7.82807  1.25"/>
+      <geometry>
+        <box size="1.5 0.15 2.5"/>
+      </geometry>
+    </collision>
+    <visual name="custom_hallway__Wall_103_Visual">
+      <origin rpy="0      0     -1.5708" xyz="-9.48403 -7.82807  1.25"/>
+      <geometry>
+        <box size="1.5 0.15 2.5"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="custom_hallway__Wall_105">
+    <inertial>
+      <mass value="0"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <collision name="custom_hallway__Wall_105_Collision">
+      <origin rpy="0       0      -1.54263" xyz="-14.58992   7.41998   1.25"/>
+      <geometry>
+        <box size="1.02334 0.15 2.5"/>
+      </geometry>
+    </collision>
+    <visual name="custom_hallway__Wall_105_Visual">
+      <origin rpy="0       0      -1.54263" xyz="-14.58992   7.41998   1.25"/>
+      <geometry>
+        <box size="1.02334 0.15 2.5"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="custom_hallway__Wall_107">
+    <inertial>
+      <mass value="0"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <collision name="custom_hallway__Wall_107_Collision">
+      <origin rpy="0      0      1.5708" xyz="-14.54872 -12.46056   1.25"/>
+      <geometry>
+        <box size="0.5 0.15 2.5"/>
+      </geometry>
+    </collision>
+    <visual name="custom_hallway__Wall_107_Visual">
+      <origin rpy="0      0      1.5708" xyz="-14.54872 -12.46056   1.25"/>
+      <geometry>
+        <box size="0.5 0.15 2.5"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="custom_hallway__Wall_109">
+    <inertial>
+      <mass value="0"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <collision name="custom_hallway__Wall_109_Collision">
+      <origin rpy="0       0      -1.55503" xyz="-9.47586  3.17856  1.25"/>
+      <geometry>
+        <box size="1.18687 0.15 2.5"/>
+      </geometry>
+    </collision>
+    <visual name="custom_hallway__Wall_109_Visual">
+      <origin rpy="0       0      -1.55503" xyz="-9.47586  3.17856  1.25"/>
+      <geometry>
+        <box size="1.18687 0.15 2.5"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="custom_hallway__Wall_111">
+    <inertial>
+      <mass value="0"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <collision name="custom_hallway__Wall_111_Collision">
+      <origin rpy="0  0  0" xyz="-8.80903 -8.50306  1.25"/>
+      <geometry>
+        <box size="1.5 0.15 2.5"/>
+      </geometry>
+    </collision>
+    <visual name="custom_hallway__Wall_111_Visual">
+      <origin rpy="0  0  0" xyz="-8.80903 -8.50306  1.25"/>
+      <geometry>
+        <box size="1.5 0.15 2.5"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="custom_hallway__Wall_112">
+    <inertial>
+      <mass value="0"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <collision name="custom_hallway__Wall_112_Collision">
+      <origin rpy="0       0       0.52359" xyz="-7.65772 -8.22807  1.25"/>
+      <geometry>
+        <box size="1.25 0.15 2.5"/>
+      </geometry>
+    </collision>
+    <visual name="custom_hallway__Wall_112_Visual">
+      <origin rpy="0       0       0.52359" xyz="-7.65772 -8.22807  1.25"/>
+      <geometry>
+        <box size="1.25 0.15 2.5"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="custom_hallway__Wall_113">
+    <inertial>
+      <mass value="0"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <collision name="custom_hallway__Wall_113_Collision">
+      <origin rpy="0  0  0" xyz="-6.2564  -7.95307  1.25"/>
+      <geometry>
+        <box size="2 0.15 2.5"/>
+      </geometry>
+    </collision>
+    <visual name="custom_hallway__Wall_113_Visual">
+      <origin rpy="0  0  0" xyz="-6.2564  -7.95307  1.25"/>
+      <geometry>
+        <box size="2 0.15 2.5"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="custom_hallway__Wall_114">
+    <inertial>
+      <mass value="0"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <collision name="custom_hallway__Wall_114_Collision">
+      <origin rpy="0       0      -0.78539" xyz="-5.03089 -8.25359  1.25"/>
+      <geometry>
+        <box size="1 0.15 2.5"/>
+      </geometry>
+    </collision>
+    <visual name="custom_hallway__Wall_114_Visual">
+      <origin rpy="0       0      -0.78539" xyz="-5.03089 -8.25359  1.25"/>
+      <geometry>
+        <box size="1 0.15 2.5"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="custom_hallway__Wall_115">
+    <inertial>
+      <mass value="0"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <collision name="custom_hallway__Wall_115_Collision">
+      <origin rpy="0  0  0" xyz="-3.05536 -8.55411  1.25"/>
+      <geometry>
+        <box size="3.5 0.15 2.5"/>
+      </geometry>
+    </collision>
+    <visual name="custom_hallway__Wall_115_Visual">
+      <origin rpy="0  0  0" xyz="-3.05536 -8.55411  1.25"/>
+      <geometry>
+        <box size="3.5 0.15 2.5"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="custom_hallway__Wall_116">
+    <inertial>
+      <mass value="0"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <collision name="custom_hallway__Wall_116_Collision">
+      <origin rpy="0       0       0.78539" xyz="-1.07983 -8.25359  1.25"/>
+      <geometry>
+        <box size="1 0.15 2.5"/>
+      </geometry>
+    </collision>
+    <visual name="custom_hallway__Wall_116_Visual">
+      <origin rpy="0       0       0.78539" xyz="-1.07983 -8.25359  1.25"/>
+      <geometry>
+        <box size="1 0.15 2.5"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="custom_hallway__Wall_117">
+    <inertial>
+      <mass value="0"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <collision name="custom_hallway__Wall_117_Collision">
+      <origin rpy="0  0  0" xyz="0.64568 -7.95307  1.25"/>
+      <geometry>
+        <box size="3 0.15 2.5"/>
+      </geometry>
+    </collision>
+    <visual name="custom_hallway__Wall_117_Visual">
+      <origin rpy="0  0  0" xyz="0.64568 -7.95307  1.25"/>
+      <geometry>
+        <box size="3 0.15 2.5"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="custom_hallway__Wall_118">
+    <inertial>
+      <mass value="0"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <collision name="custom_hallway__Wall_118_Collision">
+      <origin rpy="0       0      -0.92384" xyz="2.26694 -8.21288  1.25"/>
+      <geometry>
+        <box size="0.80121 0.15 2.5"/>
+      </geometry>
+    </collision>
+    <visual name="custom_hallway__Wall_118_Visual">
+      <origin rpy="0       0      -0.92384" xyz="2.26694 -8.21288  1.25"/>
+      <geometry>
+        <box size="0.80121 0.15 2.5"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="custom_hallway__Wall_119">
+    <inertial>
+      <mass value="0"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <collision name="custom_hallway__Wall_119_Collision">
+      <origin rpy="0       0      -0.00936" xyz="4.08584 -8.51101  1.25"/>
+      <geometry>
+        <box size="3.39543 0.15 2.5"/>
+      </geometry>
+    </collision>
+    <visual name="custom_hallway__Wall_119_Visual">
+      <origin rpy="0       0      -0.00936" xyz="4.08584 -8.51101  1.25"/>
+      <geometry>
+        <box size="3.39543 0.15 2.5"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="custom_hallway__Wall_121">
+    <inertial>
+      <mass value="0"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <collision name="custom_hallway__Wall_121_Collision">
+      <origin rpy="0  0  0" xyz="3.54097 -2.30307  1.25"/>
+      <geometry>
+        <box size="2 0.15 2.5"/>
+      </geometry>
+    </collision>
+    <visual name="custom_hallway__Wall_121_Visual">
+      <origin rpy="0  0  0" xyz="3.54097 -2.30307  1.25"/>
+      <geometry>
+        <box size="2 0.15 2.5"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="custom_hallway__Wall_122">
+    <inertial>
+      <mass value="0"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <collision name="custom_hallway__Wall_122_Collision">
+      <origin rpy="0       0       0.78539" xyz="4.94326 -1.82577  1.25"/>
+      <geometry>
+        <box size="1.5 0.15 2.5"/>
+      </geometry>
+    </collision>
+    <visual name="custom_hallway__Wall_122_Visual">
+      <origin rpy="0       0       0.78539" xyz="4.94326 -1.82577  1.25"/>
+      <geometry>
+        <box size="1.5 0.15 2.5"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="custom_hallway__Wall_123">
+    <inertial>
+      <mass value="0"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <collision name="custom_hallway__Wall_123_Collision">
+      <origin rpy="0  0  0" xyz="6.84556 -1.34848  1.25"/>
+      <geometry>
+        <box size="3 0.15 2.5"/>
+      </geometry>
+    </collision>
+    <visual name="custom_hallway__Wall_123_Visual">
+      <origin rpy="0  0  0" xyz="6.84556 -1.34848  1.25"/>
+      <geometry>
+        <box size="3 0.15 2.5"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="custom_hallway__Wall_124">
+    <inertial>
+      <mass value="0"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <collision name="custom_hallway__Wall_124_Collision">
+      <origin rpy="0       0      -1.04719" xyz="8.54557 -1.82479  1.25"/>
+      <geometry>
+        <box size="1.25 0.15 2.5"/>
+      </geometry>
+    </collision>
+    <visual name="custom_hallway__Wall_124_Visual">
+      <origin rpy="0       0      -1.04719" xyz="8.54557 -1.82479  1.25"/>
+      <geometry>
+        <box size="1.25 0.15 2.5"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="custom_hallway__Wall_125">
+    <inertial>
+      <mass value="0"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <collision name="custom_hallway__Wall_125_Collision">
+      <origin rpy="0       0      -0.00263" xyz="9.19328 -2.30208  1.25"/>
+      <geometry>
+        <box size="0.895408 0.15 2.5"/>
+      </geometry>
+    </collision>
+    <visual name="custom_hallway__Wall_125_Visual">
+      <origin rpy="0       0      -0.00263" xyz="9.19328 -2.30208  1.25"/>
+      <geometry>
+        <box size="0.895408 0.15 2.5"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="custom_hallway__Wall_126">
+    <inertial>
+      <mass value="0"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <collision name="custom_hallway__Wall_126_Collision">
+      <origin rpy="0      0     -1.5708" xyz="9.56598 -3.22807  1.25"/>
+      <geometry>
+        <box size="2 0.15 2.5"/>
+      </geometry>
+    </collision>
+    <visual name="custom_hallway__Wall_126_Visual">
+      <origin rpy="0      0     -1.5708" xyz="9.56598 -3.22807  1.25"/>
+      <geometry>
+        <box size="2 0.15 2.5"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="custom_hallway__Wall_127">
+    <inertial>
+      <mass value="0"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <collision name="custom_hallway__Wall_127_Collision">
+      <origin rpy="0       0      -0.52359" xyz="10.04228  -4.42807   1.25"/>
+      <geometry>
+        <box size="1.25 0.15 2.5"/>
+      </geometry>
+    </collision>
+    <visual name="custom_hallway__Wall_127_Visual">
+      <origin rpy="0       0      -0.52359" xyz="10.04228  -4.42807   1.25"/>
+      <geometry>
+        <box size="1.25 0.15 2.5"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="custom_hallway__Wall_128">
+    <inertial>
+      <mass value="0"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <collision name="custom_hallway__Wall_128_Collision">
+      <origin rpy="0      0     -1.5708" xyz="10.51858  -5.50307   1.25"/>
+      <geometry>
+        <box size="1.75 0.15 2.5"/>
+      </geometry>
+    </collision>
+    <visual name="custom_hallway__Wall_128_Visual">
+      <origin rpy="0      0     -1.5708" xyz="10.51858  -5.50307   1.25"/>
+      <geometry>
+        <box size="1.75 0.15 2.5"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="custom_hallway__Wall_129">
+    <inertial>
+      <mass value="0"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <collision name="custom_hallway__Wall_129_Collision">
+      <origin rpy="0      0     -2.1995" xyz="10.07408  -6.91439   1.25"/>
+      <geometry>
+        <box size="1.66168 0.15 2.5"/>
+      </geometry>
+    </collision>
+    <visual name="custom_hallway__Wall_129_Visual">
+      <origin rpy="0      0     -2.1995" xyz="10.07408  -6.91439   1.25"/>
+      <geometry>
+        <box size="1.66168 0.15 2.5"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="custom_hallway__Wall_130">
+    <inertial>
+      <mass value="0"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <collision name="custom_hallway__Wall_130_Collision">
+      <origin rpy="0      0     -1.5708" xyz="9.68308 -8.70071  1.25"/>
+      <geometry>
+        <box size="2.5 0.15 2.5"/>
+      </geometry>
+    </collision>
+    <visual name="custom_hallway__Wall_130_Visual">
+      <origin rpy="0      0     -1.5708" xyz="9.68308 -8.70071  1.25"/>
+      <geometry>
+        <box size="2.5 0.15 2.5"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="custom_hallway__Wall_131">
+    <inertial>
+      <mass value="0"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <collision name="custom_hallway__Wall_131_Collision">
+      <origin rpy="0      0     -0.4223" xyz="10.32118 -10.18646   1.25"/>
+      <geometry>
+        <box size="1.66636 0.15 2.5"/>
+      </geometry>
+    </collision>
+    <visual name="custom_hallway__Wall_131_Visual">
+      <origin rpy="0      0     -0.4223" xyz="10.32118 -10.18646   1.25"/>
+      <geometry>
+        <box size="1.66636 0.15 2.5"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="custom_hallway__Wall_132">
+    <inertial>
+      <mass value="0"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <collision name="custom_hallway__Wall_132_Collision">
+      <origin rpy="0      0     -1.5708" xyz="11.01268 -11.42221   1.25"/>
+      <geometry>
+        <box size="2 0.15 2.5"/>
+      </geometry>
+    </collision>
+    <visual name="custom_hallway__Wall_132_Visual">
+      <origin rpy="0      0     -1.5708" xyz="11.01268 -11.42221   1.25"/>
+      <geometry>
+        <box size="2 0.15 2.5"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="custom_hallway__Wall_133">
+    <inertial>
+      <mass value="0"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <collision name="custom_hallway__Wall_133_Collision">
+      <origin rpy="0       0      -2.96594" xyz="10.31438 -12.47115   1.25"/>
+      <geometry>
+        <box size="1.56859 0.15 2.5"/>
+      </geometry>
+    </collision>
+    <visual name="custom_hallway__Wall_133_Visual">
+      <origin rpy="0       0      -2.96594" xyz="10.31438 -12.47115   1.25"/>
+      <geometry>
+        <box size="1.56859 0.15 2.5"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="custom_hallway__Wall_134">
+    <inertial>
+      <mass value="0"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <collision name="custom_hallway__Wall_134_Collision">
+      <origin rpy="0       0       3.14159" xyz="8.56598 -12.59506   1.25"/>
+      <geometry>
+        <box size="2.25 0.15 2.5"/>
+      </geometry>
+    </collision>
+    <visual name="custom_hallway__Wall_134_Visual">
+      <origin rpy="0       0       3.14159" xyz="8.56598 -12.59506   1.25"/>
+      <geometry>
+        <box size="2.25 0.15 2.5"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="custom_hallway__Wall_135">
+    <inertial>
+      <mass value="0"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <collision name="custom_hallway__Wall_135_Collision">
+      <origin rpy="0       0      -2.35618" xyz="7.21545 -12.89566   1.25"/>
+      <geometry>
+        <box size="1 0.15 2.5"/>
+      </geometry>
+    </collision>
+    <visual name="custom_hallway__Wall_135_Visual">
+      <origin rpy="0       0      -2.35618" xyz="7.21545 -12.89566   1.25"/>
+      <geometry>
+        <box size="1 0.15 2.5"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="custom_hallway__Wall_136">
+    <inertial>
+      <mass value="0"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <collision name="custom_hallway__Wall_136_Collision">
+      <origin rpy="0       0       3.14159" xyz="5.23993 -13.19616   1.25"/>
+      <geometry>
+        <box size="3.5 0.15 2.5"/>
+      </geometry>
+    </collision>
+    <visual name="custom_hallway__Wall_136_Visual">
+      <origin rpy="0       0       3.14159" xyz="5.23993 -13.19616   1.25"/>
+      <geometry>
+        <box size="3.5 0.15 2.5"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="custom_hallway__Wall_137">
+    <inertial>
+      <mass value="0"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <collision name="custom_hallway__Wall_137_Collision">
+      <origin rpy="0       0       2.61798" xyz="3.08861 -12.92116   1.25"/>
+      <geometry>
+        <box size="1.25 0.15 2.5"/>
+      </geometry>
+    </collision>
+    <visual name="custom_hallway__Wall_137_Visual">
+      <origin rpy="0       0       2.61798" xyz="3.08861 -12.92116   1.25"/>
+      <geometry>
+        <box size="1.25 0.15 2.5"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="custom_hallway__Wall_138">
+    <inertial>
+      <mass value="0"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <collision name="custom_hallway__Wall_138_Collision">
+      <origin rpy="0       0       3.14159" xyz="1.0623  -12.64616   1.25"/>
+      <geometry>
+        <box size="3.25 0.15 2.5"/>
+      </geometry>
+    </collision>
+    <visual name="custom_hallway__Wall_138_Visual">
+      <origin rpy="0       0       3.14159" xyz="1.0623  -12.64616   1.25"/>
+      <geometry>
+        <box size="3.25 0.15 2.5"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="custom_hallway__Wall_139">
+    <inertial>
+      <mass value="0"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <collision name="custom_hallway__Wall_139_Collision">
+      <origin rpy="0       0      -2.35618" xyz="-0.965   -13.12346   1.25"/>
+      <geometry>
+        <box size="1.5 0.15 2.5"/>
+      </geometry>
+    </collision>
+    <visual name="custom_hallway__Wall_139_Visual">
+      <origin rpy="0       0      -2.35618" xyz="-0.965   -13.12346   1.25"/>
+      <geometry>
+        <box size="1.5 0.15 2.5"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="custom_hallway__Wall_140">
+    <inertial>
+      <mass value="0"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <collision name="custom_hallway__Wall_140_Collision">
+      <origin rpy="0       0       3.14159" xyz="-2.99229 -13.60076   1.25"/>
+      <geometry>
+        <box size="3.25 0.15 2.5"/>
+      </geometry>
+    </collision>
+    <visual name="custom_hallway__Wall_140_Visual">
+      <origin rpy="0       0       3.14159" xyz="-2.99229 -13.60076   1.25"/>
+      <geometry>
+        <box size="3.25 0.15 2.5"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="custom_hallway__Wall_141">
+    <inertial>
+      <mass value="0"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <collision name="custom_hallway__Wall_141_Collision">
+      <origin rpy="0       0       2.61798" xyz="-5.34337 -13.13826   1.25"/>
+      <geometry>
+        <box size="2 0.15 2.5"/>
+      </geometry>
+    </collision>
+    <visual name="custom_hallway__Wall_141_Visual">
+      <origin rpy="0       0       2.61798" xyz="-5.34337 -13.13826   1.25"/>
+      <geometry>
+        <box size="2 0.15 2.5"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="custom_hallway__Wall_142">
+    <inertial>
+      <mass value="0"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <collision name="custom_hallway__Wall_142_Collision">
+      <origin rpy="0       0       3.14159" xyz="-7.44444 -12.67576   1.25"/>
+      <geometry>
+        <box size="2.75 0.15 2.5"/>
+      </geometry>
+    </collision>
+    <visual name="custom_hallway__Wall_142_Visual">
+      <origin rpy="0       0       3.14159" xyz="-7.44444 -12.67576   1.25"/>
+      <geometry>
+        <box size="2.75 0.15 2.5"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="custom_hallway__Wall_143">
+    <inertial>
+      <mass value="0"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <collision name="custom_hallway__Wall_143_Collision">
+      <origin rpy="0       0      -2.35618" xyz="-9.13335 -13.06466   1.25"/>
+      <geometry>
+        <box size="1.25 0.15 2.5"/>
+      </geometry>
+    </collision>
+    <visual name="custom_hallway__Wall_143_Visual">
+      <origin rpy="0       0      -2.35618" xyz="-9.13335 -13.06466   1.25"/>
+      <geometry>
+        <box size="1.25 0.15 2.5"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="custom_hallway__Wall_144">
+    <inertial>
+      <mass value="0"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <collision name="custom_hallway__Wall_144_Collision">
+      <origin rpy="0       0       3.14159" xyz="-10.69726 -13.45356   1.25"/>
+      <geometry>
+        <box size="2.5 0.15 2.5"/>
+      </geometry>
+    </collision>
+    <visual name="custom_hallway__Wall_144_Visual">
+      <origin rpy="0       0       3.14159" xyz="-10.69726 -13.45356   1.25"/>
+      <geometry>
+        <box size="2.5 0.15 2.5"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="custom_hallway__Wall_145">
+    <inertial>
+      <mass value="0"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <collision name="custom_hallway__Wall_145_Collision">
+      <origin rpy="0       0       2.61798" xyz="-12.45682 -13.11606   1.25"/>
+      <geometry>
+        <box size="1.5 0.15 2.5"/>
+      </geometry>
+    </collision>
+    <visual name="custom_hallway__Wall_145_Visual">
+      <origin rpy="0       0       2.61798" xyz="-12.45682 -13.11606   1.25"/>
+      <geometry>
+        <box size="1.5 0.15 2.5"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="custom_hallway__Wall_147">
+    <inertial>
+      <mass value="0"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <collision name="custom_hallway__Wall_147_Collision">
+      <origin rpy="0       0       3.04701" xyz="-13.79512 -12.70706   1.25"/>
+      <geometry>
+        <box size="1.66413 0.15 2.5"/>
+      </geometry>
+    </collision>
+    <visual name="custom_hallway__Wall_147_Visual">
+      <origin rpy="0       0       3.04701" xyz="-13.79512 -12.70706   1.25"/>
+      <geometry>
+        <box size="1.66413 0.15 2.5"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="custom_hallway__Wall_21">
+    <inertial>
+      <mass value="0"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <collision name="custom_hallway__Wall_21_Collision">
+      <origin rpy="0       0      -2.32565" xyz="4.12281 -6.41156  1.25"/>
+      <geometry>
+        <box size="0.859757 0.15 2.5"/>
+      </geometry>
+    </collision>
+    <visual name="custom_hallway__Wall_21_Visual">
+      <origin rpy="0       0      -2.32565" xyz="4.12281 -6.41156  1.25"/>
+      <geometry>
+        <box size="0.859757 0.15 2.5"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="custom_hallway__Wall_22">
+    <inertial>
+      <mass value="0"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <collision name="custom_hallway__Wall_22_Collision">
+      <origin rpy="0       0       3.14159" xyz="3.20466 -6.67004  1.25"/>
+      <geometry>
+        <box size="1.5 0.15 2.5"/>
+      </geometry>
+    </collision>
+    <visual name="custom_hallway__Wall_22_Visual">
+      <origin rpy="0       0       3.14159" xyz="3.20466 -6.67004  1.25"/>
+      <geometry>
+        <box size="1.5 0.15 2.5"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="custom_hallway__Wall_23">
+    <inertial>
+      <mass value="0"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <collision name="custom_hallway__Wall_23_Collision">
+      <origin rpy="0       0       2.57559" xyz="2.12281 -6.41156  1.25"/>
+      <geometry>
+        <box size="1.11403 0.15 2.5"/>
+      </geometry>
+    </collision>
+    <visual name="custom_hallway__Wall_23_Visual">
+      <origin rpy="0       0       2.57559" xyz="2.12281 -6.41156  1.25"/>
+      <geometry>
+        <box size="1.11403 0.15 2.5"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="custom_hallway__Wall_25">
+    <inertial>
+      <mass value="0"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <collision name="custom_hallway__Wall_25_Collision">
+      <origin rpy="0  0  0" xyz="0.29097 -6.15307  1.25"/>
+      <geometry>
+        <box size="3 0.15 2.5"/>
+      </geometry>
+    </collision>
+    <visual name="custom_hallway__Wall_25_Visual">
+      <origin rpy="0  0  0" xyz="0.29097 -6.15307  1.25"/>
+      <geometry>
+        <box size="3 0.15 2.5"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="custom_hallway__Wall_27">
+    <inertial>
+      <mass value="0"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <collision name="custom_hallway__Wall_27_Collision">
+      <origin rpy="0  0  0" xyz="5.04097 -6.15307  1.25"/>
+      <geometry>
+        <box size="1.5 0.15 2.5"/>
+      </geometry>
+    </collision>
+    <visual name="custom_hallway__Wall_27_Visual">
+      <origin rpy="0  0  0" xyz="5.04097 -6.15307  1.25"/>
+      <geometry>
+        <box size="1.5 0.15 2.5"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="custom_hallway__Wall_29">
+    <inertial>
+      <mass value="0"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <collision name="custom_hallway__Wall_29_Collision">
+      <origin rpy="0       0       2.35618" xyz="-1.36816 -4.91974  1.25"/>
+      <geometry>
+        <box size="0.75 0.15 2.5"/>
+      </geometry>
+    </collision>
+    <visual name="custom_hallway__Wall_29_Visual">
+      <origin rpy="0       0       2.35618" xyz="-1.36816 -4.91974  1.25"/>
+      <geometry>
+        <box size="0.75 0.15 2.5"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="custom_hallway__Wall_30">
+    <inertial>
+      <mass value="0"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <collision name="custom_hallway__Wall_30_Collision">
+      <origin rpy="0      0      1.5708" xyz="-1.58029 -4.16521  1.25"/>
+      <geometry>
+        <box size="1.23479 0.15 2.5"/>
+      </geometry>
+    </collision>
+    <visual name="custom_hallway__Wall_30_Visual">
+      <origin rpy="0      0      1.5708" xyz="-1.58029 -4.16521  1.25"/>
+      <geometry>
+        <box size="1.23479 0.15 2.5"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="custom_hallway__Wall_31">
+    <inertial>
+      <mass value="0"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <collision name="custom_hallway__Wall_31_Collision">
+      <origin rpy="0       0       0.81997" xyz="-1.34503 -3.35548  1.25"/>
+      <geometry>
+        <box size="0.83969 0.15 2.5"/>
+      </geometry>
+    </collision>
+    <visual name="custom_hallway__Wall_31_Visual">
+      <origin rpy="0       0       0.81997" xyz="-1.34503 -3.35548  1.25"/>
+      <geometry>
+        <box size="0.83969 0.15 2.5"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="custom_hallway__Wall_33">
+    <inertial>
+      <mass value="0"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <collision name="custom_hallway__Wall_33_Collision">
+      <origin rpy="0       0       1.59234" xyz="-1.14503 -5.64247  1.25"/>
+      <geometry>
+        <box size="1.17143 0.15 2.5"/>
+      </geometry>
+    </collision>
+    <visual name="custom_hallway__Wall_33_Visual">
+      <origin rpy="0       0       1.59234" xyz="-1.14503 -5.64247  1.25"/>
+      <geometry>
+        <box size="1.17143 0.15 2.5"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="custom_hallway__Wall_35">
+    <inertial>
+      <mass value="0"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <collision name="custom_hallway__Wall_35_Collision">
+      <origin rpy="0       0      -2.55428" xyz="-1.41091  1.8973   1.25"/>
+      <geometry>
+        <box size="0.870502 0.15 2.5"/>
+      </geometry>
+    </collision>
+    <visual name="custom_hallway__Wall_35_Visual">
+      <origin rpy="0       0      -2.55428" xyz="-1.41091  1.8973   1.25"/>
+      <geometry>
+        <box size="0.870502 0.15 2.5"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="custom_hallway__Wall_36">
+    <inertial>
+      <mass value="0"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <collision name="custom_hallway__Wall_36_Collision">
+      <origin rpy="0      0     -1.5708" xyz="-1.7108   1.14768  1.25"/>
+      <geometry>
+        <box size="1.25 0.15 2.5"/>
+      </geometry>
+    </collision>
+    <visual name="custom_hallway__Wall_36_Visual">
+      <origin rpy="0      0     -1.5708" xyz="-1.7108   1.14768  1.25"/>
+      <geometry>
+        <box size="1.25 0.15 2.5"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="custom_hallway__Wall_37">
+    <inertial>
+      <mass value="0"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <collision name="custom_hallway__Wall_37_Collision">
+      <origin rpy="0       0      -0.78539" xyz="-1.41028  0.29715  1.25"/>
+      <geometry>
+        <box size="1 0.15 2.5"/>
+      </geometry>
+    </collision>
+    <visual name="custom_hallway__Wall_37_Visual">
+      <origin rpy="0       0      -0.78539" xyz="-1.41028  0.29715  1.25"/>
+      <geometry>
+        <box size="1 0.15 2.5"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="custom_hallway__Wall_39">
+    <inertial>
+      <mass value="0"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <collision name="custom_hallway__Wall_39_Collision">
+      <origin rpy="0      0      1.5708" xyz="-1.11103  2.89693  1.25"/>
+      <geometry>
+        <box size="1.75 0.15 2.5"/>
+      </geometry>
+    </collision>
+    <visual name="custom_hallway__Wall_39_Visual">
+      <origin rpy="0      0      1.5708" xyz="-1.11103  2.89693  1.25"/>
+      <geometry>
+        <box size="1.75 0.15 2.5"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="custom_hallway__Wall_41">
+    <inertial>
+      <mass value="0"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <collision name="custom_hallway__Wall_41_Collision">
+      <origin rpy="0      0     -1.5708" xyz="-1.10976 -1.55336  1.25"/>
+      <geometry>
+        <box size="3.25 0.15 2.5"/>
+      </geometry>
+    </collision>
+    <visual name="custom_hallway__Wall_41_Visual">
+      <origin rpy="0      0     -1.5708" xyz="-1.10976 -1.55336  1.25"/>
+      <geometry>
+        <box size="3.25 0.15 2.5"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="custom_hallway__Wall_43">
+    <inertial>
+      <mass value="0"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <collision name="custom_hallway__Wall_43_Collision">
+      <origin rpy="0       0       0.68069" xyz="2.9114  -1.71382  1.25"/>
+      <geometry>
+        <box size="0.910309 0.15 2.5"/>
+      </geometry>
+    </collision>
+    <visual name="custom_hallway__Wall_43_Visual">
+      <origin rpy="0       0       0.68069" xyz="2.9114  -1.71382  1.25"/>
+      <geometry>
+        <box size="0.910309 0.15 2.5"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="custom_hallway__Wall_44">
+    <inertial>
+      <mass value="0"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <collision name="custom_hallway__Wall_44_Collision">
+      <origin rpy="0      0      1.5708" xyz="3.20683 -1.04958  1.25"/>
+      <geometry>
+        <box size="1 0.15 2.5"/>
+      </geometry>
+    </collision>
+    <visual name="custom_hallway__Wall_44_Visual">
+      <origin rpy="0      0      1.5708" xyz="3.20683 -1.04958  1.25"/>
+      <geometry>
+        <box size="1 0.15 2.5"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="custom_hallway__Wall_45">
+    <inertial>
+      <mass value="0"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <collision name="custom_hallway__Wall_45_Collision">
+      <origin rpy="0       0       2.36001" xyz="2.93423 -0.35406  1.25"/>
+      <geometry>
+        <box size="0.9181 0.15 2.5"/>
+      </geometry>
+    </collision>
+    <visual name="custom_hallway__Wall_45_Visual">
+      <origin rpy="0       0       2.36001" xyz="2.93423 -0.35406  1.25"/>
+      <geometry>
+        <box size="0.9181 0.15 2.5"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="custom_hallway__Wall_47">
+    <inertial>
+      <mass value="0"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <collision name="custom_hallway__Wall_47_Collision">
+      <origin rpy="0       0       0.52359" xyz="3.02969  0.97897  1.25"/>
+      <geometry>
+        <box size="1 0.15 2.5"/>
+      </geometry>
+    </collision>
+    <visual name="custom_hallway__Wall_47_Visual">
+      <origin rpy="0       0       0.52359" xyz="3.02969  0.97897  1.25"/>
+      <geometry>
+        <box size="1 0.15 2.5"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="custom_hallway__Wall_48">
+    <inertial>
+      <mass value="0"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <collision name="custom_hallway__Wall_48_Collision">
+      <origin rpy="0      0      1.5708" xyz="3.39775  1.86647  1.25"/>
+      <geometry>
+        <box size="1.5 0.15 2.5"/>
+      </geometry>
+    </collision>
+    <visual name="custom_hallway__Wall_48_Visual">
+      <origin rpy="0      0      1.5708" xyz="3.39775  1.86647  1.25"/>
+      <geometry>
+        <box size="1.5 0.15 2.5"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="custom_hallway__Wall_49">
+    <inertial>
+      <mass value="0"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <collision name="custom_hallway__Wall_49_Collision">
+      <origin rpy="0       0       2.77928" xyz="3.0172   2.68572  1.25"/>
+      <geometry>
+        <box size="0.963959 0.15 2.5"/>
+      </geometry>
+    </collision>
+    <visual name="custom_hallway__Wall_49_Visual">
+      <origin rpy="0       0       2.77928" xyz="3.0172   2.68572  1.25"/>
+      <geometry>
+        <box size="0.963959 0.15 2.5"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="custom_hallway__Wall_50">
+    <inertial>
+      <mass value="0"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <collision name="custom_hallway__Wall_50_Collision">
+      <origin rpy="0      0      1.5708" xyz="2.64814  3.76647  1.25"/>
+      <geometry>
+        <box size="2 0.15 2.5"/>
+      </geometry>
+    </collision>
+    <visual name="custom_hallway__Wall_50_Visual">
+      <origin rpy="0      0      1.5708" xyz="2.64814  3.76647  1.25"/>
+      <geometry>
+        <box size="2 0.15 2.5"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="custom_hallway__Wall_51">
+    <inertial>
+      <mass value="0"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <collision name="custom_hallway__Wall_51_Collision">
+      <origin rpy="0       0       0.41993" xyz="3.12545  4.89822  1.25"/>
+      <geometry>
+        <box size="1.22064 0.15 2.5"/>
+      </geometry>
+    </collision>
+    <visual name="custom_hallway__Wall_51_Visual">
+      <origin rpy="0       0       0.41993" xyz="3.12545  4.89822  1.25"/>
+      <geometry>
+        <box size="1.22064 0.15 2.5"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="custom_hallway__Wall_52">
+    <inertial>
+      <mass value="0"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <collision name="custom_hallway__Wall_52_Collision">
+      <origin rpy="0      0      1.5708" xyz="3.61426  5.79147  1.25"/>
+      <geometry>
+        <box size="1.5 0.15 2.5"/>
+      </geometry>
+    </collision>
+    <visual name="custom_hallway__Wall_52_Visual">
+      <origin rpy="0      0      1.5708" xyz="3.61426  5.79147  1.25"/>
+      <geometry>
+        <box size="1.5 0.15 2.5"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="custom_hallway__Wall_53">
+    <inertial>
+      <mass value="0"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <collision name="custom_hallway__Wall_53_Collision">
+      <origin rpy="0       0       2.61492" xyz="3.11511  6.7567   1.25"/>
+      <geometry>
+        <box size="1.30478 0.15 2.5"/>
+      </geometry>
+    </collision>
+    <visual name="custom_hallway__Wall_53_Visual">
+      <origin rpy="0       0       2.61492" xyz="3.11511  6.7567   1.25"/>
+      <geometry>
+        <box size="1.30478 0.15 2.5"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="custom_hallway__Wall_54">
+    <inertial>
+      <mass value="0"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <collision name="custom_hallway__Wall_54_Collision">
+      <origin rpy="0      0      1.5708" xyz="2.61597  7.47193  1.25"/>
+      <geometry>
+        <box size="1 0.15 2.5"/>
+      </geometry>
+    </collision>
+    <visual name="custom_hallway__Wall_54_Visual">
+      <origin rpy="0      0      1.5708" xyz="2.61597  7.47193  1.25"/>
+      <geometry>
+        <box size="1 0.15 2.5"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="custom_hallway__Wall_56">
+    <inertial>
+      <mass value="0"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <collision name="custom_hallway__Wall_56_Collision">
+      <origin rpy="0      0      1.5708" xyz="2.61597 -2.12807  1.25"/>
+      <geometry>
+        <box size="0.5 0.15 2.5"/>
+      </geometry>
+    </collision>
+    <visual name="custom_hallway__Wall_56_Visual">
+      <origin rpy="0      0      1.5708" xyz="2.61597 -2.12807  1.25"/>
+      <geometry>
+        <box size="0.5 0.15 2.5"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="custom_hallway__Wall_58">
+    <inertial>
+      <mass value="0"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <collision name="custom_hallway__Wall_58_Collision">
+      <origin rpy="0      0      1.5708" xyz="2.66163  0.34147  1.25"/>
+      <geometry>
+        <box size="1 0.15 2.5"/>
+      </geometry>
+    </collision>
+    <visual name="custom_hallway__Wall_58_Visual">
+      <origin rpy="0      0      1.5708" xyz="2.66163  0.34147  1.25"/>
+      <geometry>
+        <box size="1 0.15 2.5"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="custom_hallway__Wall_60">
+    <inertial>
+      <mass value="0"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <collision name="custom_hallway__Wall_60_Collision">
+      <origin rpy="0       0      -2.64686" xyz="-3.42421  3.31218  1.25"/>
+      <geometry>
+        <box size="1.77067 0.15 2.5"/>
+      </geometry>
+    </collision>
+    <visual name="custom_hallway__Wall_60_Visual">
+      <origin rpy="0       0      -2.64686" xyz="-3.42421  3.31218  1.25"/>
+      <geometry>
+        <box size="1.77067 0.15 2.5"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="custom_hallway__Wall_61">
+    <inertial>
+      <mass value="0"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <collision name="custom_hallway__Wall_61_Collision">
+      <origin rpy="0       0       3.14159" xyz="-5.31238  2.92743  1.25"/>
+      <geometry>
+        <box size="2.5 0.15 2.5"/>
+      </geometry>
+    </collision>
+    <visual name="custom_hallway__Wall_61_Visual">
+      <origin rpy="0       0       3.14159" xyz="-5.31238  2.92743  1.25"/>
+      <geometry>
+        <box size="2.5 0.15 2.5"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="custom_hallway__Wall_62">
+    <inertial>
+      <mass value="0"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <collision name="custom_hallway__Wall_62_Collision">
+      <origin rpy="0       0       2.63802" xyz="-7.18571  3.31218  1.25"/>
+      <geometry>
+        <box size="1.7446 0.15 2.5"/>
+      </geometry>
+    </collision>
+    <visual name="custom_hallway__Wall_62_Visual">
+      <origin rpy="0       0       2.63802" xyz="-7.18571  3.31218  1.25"/>
+      <geometry>
+        <box size="1.7446 0.15 2.5"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="custom_hallway__Wall_64">
+    <inertial>
+      <mass value="0"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <collision name="custom_hallway__Wall_64_Collision">
+      <origin rpy="0       0       0.50214" xyz="-11.58127   8.06314   1.25"/>
+      <geometry>
+        <box size="0.840814 0.15 2.5"/>
+      </geometry>
+    </collision>
+    <visual name="custom_hallway__Wall_64_Visual">
+      <origin rpy="0       0       0.50214" xyz="-11.58127   8.06314   1.25"/>
+      <geometry>
+        <box size="0.840814 0.15 2.5"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="custom_hallway__Wall_65">
+    <inertial>
+      <mass value="0"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <collision name="custom_hallway__Wall_65_Collision">
+      <origin rpy="0  0  0" xyz="-10.3535    8.22944   1.25"/>
+      <geometry>
+        <box size="2 0.15 2.5"/>
+      </geometry>
+    </collision>
+    <visual name="custom_hallway__Wall_65_Visual">
+      <origin rpy="0  0  0" xyz="-10.3535    8.22944   1.25"/>
+      <geometry>
+        <box size="2 0.15 2.5"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="custom_hallway__Wall_66">
+    <inertial>
+      <mass value="0"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <collision name="custom_hallway__Wall_66_Collision">
+      <origin rpy="0       0      -0.59014" xyz="-9.20454  8.07944  1.25"/>
+      <geometry>
+        <box size="0.689098 0.15 2.5"/>
+      </geometry>
+    </collision>
+    <visual name="custom_hallway__Wall_66_Visual">
+      <origin rpy="0       0      -0.59014" xyz="-9.20454  8.07944  1.25"/>
+      <geometry>
+        <box size="0.689098 0.15 2.5"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="custom_hallway__Wall_68">
+    <inertial>
+      <mass value="0"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <collision name="custom_hallway__Wall_68_Collision">
+      <origin rpy="0       0       0.52359" xyz="-6.01253  8.14194  1.25"/>
+      <geometry>
+        <box size="1 0.15 2.5"/>
+      </geometry>
+    </collision>
+    <visual name="custom_hallway__Wall_68_Visual">
+      <origin rpy="0       0       0.52359" xyz="-6.01253  8.14194  1.25"/>
+      <geometry>
+        <box size="1 0.15 2.5"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="custom_hallway__Wall_69">
+    <inertial>
+      <mass value="0"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <collision name="custom_hallway__Wall_69_Collision">
+      <origin rpy="0  0  0" xyz="-4.59446  8.35444  1.25"/>
+      <geometry>
+        <box size="2.25 0.15 2.5"/>
+      </geometry>
+    </collision>
+    <visual name="custom_hallway__Wall_69_Visual">
+      <origin rpy="0  0  0" xyz="-4.59446  8.35444  1.25"/>
+      <geometry>
+        <box size="2.25 0.15 2.5"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="custom_hallway__Wall_7">
+    <inertial>
+      <mass value="0"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <collision name="custom_hallway__Wall_7_Collision">
+      <origin rpy="0       0       1.56761" xyz="5.71223 -7.32807  1.25"/>
+      <geometry>
+        <box size="2.50001 0.15 2.5"/>
+      </geometry>
+    </collision>
+    <visual name="custom_hallway__Wall_7_Visual">
+      <origin rpy="0       0       1.56761" xyz="5.71223 -7.32807  1.25"/>
+      <geometry>
+        <box size="2.50001 0.15 2.5"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="custom_hallway__Wall_70">
+    <inertial>
+      <mass value="0"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <collision name="custom_hallway__Wall_70_Collision">
+      <origin rpy="0       0      -0.52359" xyz="-3.1764   8.14194  1.25"/>
+      <geometry>
+        <box size="1 0.15 2.5"/>
+      </geometry>
+    </collision>
+    <visual name="custom_hallway__Wall_70_Visual">
+      <origin rpy="0       0      -0.52359" xyz="-3.1764   8.14194  1.25"/>
+      <geometry>
+        <box size="1 0.15 2.5"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="custom_hallway__Wall_71">
+    <inertial>
+      <mass value="0"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <collision name="custom_hallway__Wall_71_Collision">
+      <origin rpy="0  0  0" xyz="-1.88334  7.92944  1.25"/>
+      <geometry>
+        <box size="2 0.15 2.5"/>
+      </geometry>
+    </collision>
+    <visual name="custom_hallway__Wall_71_Visual">
+      <origin rpy="0  0  0" xyz="-1.88334  7.92944  1.25"/>
+      <geometry>
+        <box size="2 0.15 2.5"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="custom_hallway__Wall_72">
+    <inertial>
+      <mass value="0"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <collision name="custom_hallway__Wall_72_Collision">
+      <origin rpy="0       0       0.52359" xyz="-0.37377  8.26694  1.25"/>
+      <geometry>
+        <box size="1.5 0.15 2.5"/>
+      </geometry>
+    </collision>
+    <visual name="custom_hallway__Wall_72_Visual">
+      <origin rpy="0       0       0.52359" xyz="-0.37377  8.26694  1.25"/>
+      <geometry>
+        <box size="1.5 0.15 2.5"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="custom_hallway__Wall_73">
+    <inertial>
+      <mass value="0"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <collision name="custom_hallway__Wall_73_Collision">
+      <origin rpy="0  0  0" xyz="0.88579  8.60444  1.25"/>
+      <geometry>
+        <box size="1.5 0.15 2.5"/>
+      </geometry>
+    </collision>
+    <visual name="custom_hallway__Wall_73_Visual">
+      <origin rpy="0  0  0" xyz="0.88579  8.60444  1.25"/>
+      <geometry>
+        <box size="1.5 0.15 2.5"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="custom_hallway__Wall_74">
+    <inertial>
+      <mass value="0"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <collision name="custom_hallway__Wall_74_Collision">
+      <origin rpy="0       0      -0.59065" xyz="2.08838  8.25064  1.25"/>
+      <geometry>
+        <box size="1.42041 0.15 2.5"/>
+      </geometry>
+    </collision>
+    <visual name="custom_hallway__Wall_74_Visual">
+      <origin rpy="0       0      -0.59065" xyz="2.08838  8.25064  1.25"/>
+      <geometry>
+        <box size="1.42041 0.15 2.5"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="custom_hallway__Wall_76">
+    <inertial>
+      <mass value="0"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <collision name="custom_hallway__Wall_76_Collision">
+      <origin rpy="0       0       0.01488" xyz="-13.24312   7.87674   1.25"/>
+      <geometry>
+        <box size="2.86852 0.15 2.5"/>
+      </geometry>
+    </collision>
+    <visual name="custom_hallway__Wall_76_Visual">
+      <origin rpy="0       0       0.01488" xyz="-13.24312   7.87674   1.25"/>
+      <geometry>
+        <box size="2.86852 0.15 2.5"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="custom_hallway__Wall_78">
+    <inertial>
+      <mass value="0"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <collision name="custom_hallway__Wall_78_Collision">
+      <origin rpy="0  0  0" xyz="-7.68059  7.92944  1.25"/>
+      <geometry>
+        <box size="2.75 0.15 2.5"/>
+      </geometry>
+    </collision>
+    <visual name="custom_hallway__Wall_78_Visual">
+      <origin rpy="0  0  0" xyz="-7.68059  7.92944  1.25"/>
+      <geometry>
+        <box size="2.75 0.15 2.5"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="custom_hallway__Wall_80">
+    <inertial>
+      <mass value="0"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <collision name="custom_hallway__Wall_80_Collision">
+      <origin rpy="0  0  0" xyz="-8.68403  3.69693  1.25"/>
+      <geometry>
+        <box size="1.75 0.15 2.5"/>
+      </geometry>
+    </collision>
+    <visual name="custom_hallway__Wall_80_Visual">
+      <origin rpy="0  0  0" xyz="-8.68403  3.69693  1.25"/>
+      <geometry>
+        <box size="1.75 0.15 2.5"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="custom_hallway__Wall_82">
+    <inertial>
+      <mass value="0"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <collision name="custom_hallway__Wall_82_Collision">
+      <origin rpy="0  0  0" xyz="-1.91103  3.69693  1.25"/>
+      <geometry>
+        <box size="1.75 0.15 2.5"/>
+      </geometry>
+    </collision>
+    <visual name="custom_hallway__Wall_82_Visual">
+      <origin rpy="0  0  0" xyz="-1.91103  3.69693  1.25"/>
+      <geometry>
+        <box size="1.75 0.15 2.5"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="custom_hallway__Wall_84">
+    <inertial>
+      <mass value="0"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <collision name="custom_hallway__Wall_84_Collision">
+      <origin rpy="0       0      -2.35618" xyz="-15.05492   6.50618   1.25"/>
+      <geometry>
+        <box size="1.5 0.15 2.5"/>
+      </geometry>
+    </collision>
+    <visual name="custom_hallway__Wall_84_Visual">
+      <origin rpy="0       0      -2.35618" xyz="-15.05492   6.50618   1.25"/>
+      <geometry>
+        <box size="1.5 0.15 2.5"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="custom_hallway__Wall_85">
+    <inertial>
+      <mass value="0"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <collision name="custom_hallway__Wall_85_Collision">
+      <origin rpy="0      0     -1.5708" xyz="-15.53222   5.10388   1.25"/>
+      <geometry>
+        <box size="2 0.15 2.5"/>
+      </geometry>
+    </collision>
+    <visual name="custom_hallway__Wall_85_Visual">
+      <origin rpy="0      0     -1.5708" xyz="-15.53222   5.10388   1.25"/>
+      <geometry>
+        <box size="2 0.15 2.5"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="custom_hallway__Wall_86">
+    <inertial>
+      <mass value="0"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <collision name="custom_hallway__Wall_86_Collision">
+      <origin rpy="0       0      -0.52359" xyz="-15.05592   3.90388   1.25"/>
+      <geometry>
+        <box size="1.25 0.15 2.5"/>
+      </geometry>
+    </collision>
+    <visual name="custom_hallway__Wall_86_Visual">
+      <origin rpy="0       0      -0.52359" xyz="-15.05592   3.90388   1.25"/>
+      <geometry>
+        <box size="1.25 0.15 2.5"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="custom_hallway__Wall_87">
+    <inertial>
+      <mass value="0"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <collision name="custom_hallway__Wall_87_Collision">
+      <origin rpy="0      0     -1.5708" xyz="-14.57962   1.20388   1.25"/>
+      <geometry>
+        <box size="5 0.15 2.5"/>
+      </geometry>
+    </collision>
+    <visual name="custom_hallway__Wall_87_Visual">
+      <origin rpy="0      0     -1.5708" xyz="-14.57962   1.20388   1.25"/>
+      <geometry>
+        <box size="5 0.15 2.5"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="custom_hallway__Wall_88">
+    <inertial>
+      <mass value="0"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <collision name="custom_hallway__Wall_88_Collision">
+      <origin rpy="0       0      -2.35618" xyz="-14.96852  -1.61002   1.25"/>
+      <geometry>
+        <box size="1.25 0.15 2.5"/>
+      </geometry>
+    </collision>
+    <visual name="custom_hallway__Wall_88_Visual">
+      <origin rpy="0       0      -2.35618" xyz="-14.96852  -1.61002   1.25"/>
+      <geometry>
+        <box size="1.25 0.15 2.5"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="custom_hallway__Wall_89">
+    <inertial>
+      <mass value="0"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <collision name="custom_hallway__Wall_89_Collision">
+      <origin rpy="0      0     -1.5708" xyz="-15.35742  -2.92393   1.25"/>
+      <geometry>
+        <box size="2 0.15 2.5"/>
+      </geometry>
+    </collision>
+    <visual name="custom_hallway__Wall_89_Visual">
+      <origin rpy="0      0     -1.5708" xyz="-15.35742  -2.92393   1.25"/>
+      <geometry>
+        <box size="2 0.15 2.5"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="custom_hallway__Wall_90">
+    <inertial>
+      <mass value="0"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <collision name="custom_hallway__Wall_90_Collision">
+      <origin rpy="0       0      -0.52359" xyz="-14.98942  -4.06142   1.25"/>
+      <geometry>
+        <box size="1 0.15 2.5"/>
+      </geometry>
+    </collision>
+    <visual name="custom_hallway__Wall_90_Visual">
+      <origin rpy="0       0      -0.52359" xyz="-14.98942  -4.06142   1.25"/>
+      <geometry>
+        <box size="1 0.15 2.5"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="custom_hallway__Wall_91">
+    <inertial>
+      <mass value="0"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <collision name="custom_hallway__Wall_91_Collision">
+      <origin rpy="0      0     -1.5708" xyz="-14.62132  -6.32393   1.25"/>
+      <geometry>
+        <box size="4.25 0.15 2.5"/>
+      </geometry>
+    </collision>
+    <visual name="custom_hallway__Wall_91_Visual">
+      <origin rpy="0      0     -1.5708" xyz="-14.62132  -6.32393   1.25"/>
+      <geometry>
+        <box size="4.25 0.15 2.5"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="custom_hallway__Wall_92">
+    <inertial>
+      <mass value="0"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <collision name="custom_hallway__Wall_92_Collision">
+      <origin rpy="0       0      -2.09439" xyz="-15.02132  -9.06675   1.25"/>
+      <geometry>
+        <box size="1.75 0.15 2.5"/>
+      </geometry>
+    </collision>
+    <visual name="custom_hallway__Wall_92_Visual">
+      <origin rpy="0       0      -2.09439" xyz="-15.02132  -9.06675   1.25"/>
+      <geometry>
+        <box size="1.75 0.15 2.5"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="custom_hallway__Wall_93">
+    <inertial>
+      <mass value="0"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <collision name="custom_hallway__Wall_93_Collision">
+      <origin rpy="0      0     -1.5708" xyz="-15.42132 -10.55957   1.25"/>
+      <geometry>
+        <box size="1.75 0.15 2.5"/>
+      </geometry>
+    </collision>
+    <visual name="custom_hallway__Wall_93_Visual">
+      <origin rpy="0      0     -1.5708" xyz="-15.42132 -10.55957   1.25"/>
+      <geometry>
+        <box size="1.75 0.15 2.5"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="custom_hallway__Wall_94">
+    <inertial>
+      <mass value="0"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <collision name="custom_hallway__Wall_94_Collision">
+      <origin rpy="0       0      -0.81509" xyz="-14.98502 -11.82257   1.25"/>
+      <geometry>
+        <box size="1.42233 0.15 2.5"/>
+      </geometry>
+    </collision>
+    <visual name="custom_hallway__Wall_94_Visual">
+      <origin rpy="0       0      -0.81509" xyz="-14.98502 -11.82257   1.25"/>
+      <geometry>
+        <box size="1.42233 0.15 2.5"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="custom_hallway__Wall_96">
+    <inertial>
+      <mass value="0"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <collision name="custom_hallway__Wall_96_Collision">
+      <origin rpy="0       0      -0.52359" xyz="-9.20787  2.51018  1.25"/>
+      <geometry>
+        <box size="0.75 0.15 2.5"/>
+      </geometry>
+    </collision>
+    <visual name="custom_hallway__Wall_96_Visual">
+      <origin rpy="0       0      -0.52359" xyz="-9.20787  2.51018  1.25"/>
+      <geometry>
+        <box size="0.75 0.15 2.5"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="custom_hallway__Wall_97">
+    <inertial>
+      <mass value="0"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <collision name="custom_hallway__Wall_97_Collision">
+      <origin rpy="0      0     -1.5708" xyz="-8.94807  1.43518  1.25"/>
+      <geometry>
+        <box size="2 0.15 2.5"/>
+      </geometry>
+    </collision>
+    <visual name="custom_hallway__Wall_97_Visual">
+      <origin rpy="0      0     -1.5708" xyz="-8.94807  1.43518  1.25"/>
+      <geometry>
+        <box size="2 0.15 2.5"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="custom_hallway__Wall_98">
+    <inertial>
+      <mass value="0"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <collision name="custom_hallway__Wall_98_Collision">
+      <origin rpy="0       0      -2.09439" xyz="-9.16058  0.14212  1.25"/>
+      <geometry>
+        <box size="1 0.15 2.5"/>
+      </geometry>
+    </collision>
+    <visual name="custom_hallway__Wall_98_Visual">
+      <origin rpy="0       0      -2.09439" xyz="-9.16058  0.14212  1.25"/>
+      <geometry>
+        <box size="1 0.15 2.5"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="custom_hallway__Wall_99">
+    <inertial>
+      <mass value="0"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <collision name="custom_hallway__Wall_99_Collision">
+      <origin rpy="0      0     -1.5708" xyz="-9.37308 -1.52593  1.25"/>
+      <geometry>
+        <box size="2.75 0.15 2.5"/>
+      </geometry>
+    </collision>
+    <visual name="custom_hallway__Wall_99_Visual">
+      <origin rpy="0      0     -1.5708" xyz="-9.37308 -1.52593  1.25"/>
+      <geometry>
+        <box size="2.75 0.15 2.5"/>
+      </geometry>
+    </visual>
+  </link>
+
+
+
+<joint name="joint2" type="fixed">
+  <parent link="custom_hallway__Wall_100"/>
+  <child link="custom_hallway__Wall_101"/>
+</joint>
+
+<joint name="joint3" type="fixed">
+  <parent link="custom_hallway__Wall_100"/>
+  <child link="custom_hallway__Wall_102"/>
+</joint>
+
+<joint name="joint4" type="fixed">
+  <parent link="custom_hallway__Wall_100"/>
+  <child link="custom_hallway__Wall_103"/>
+</joint>
+
+<joint name="joint5" type="fixed">
+  <parent link="custom_hallway__Wall_100"/>
+  <child link="custom_hallway__Wall_105"/>
+</joint>
+
+<joint name="joint6" type="fixed">
+  <parent link="custom_hallway__Wall_100"/>
+  <child link="custom_hallway__Wall_107"/>
+</joint>
+
+<joint name="joint7" type="fixed">
+  <parent link="custom_hallway__Wall_100"/>
+  <child link="custom_hallway__Wall_109"/>
+</joint>
+
+<joint name="joint8" type="fixed">
+  <parent link="custom_hallway__Wall_100"/>
+  <child link="custom_hallway__Wall_111"/>
+</joint>
+
+<joint name="joint9" type="fixed">
+  <parent link="custom_hallway__Wall_100"/>
+  <child link="custom_hallway__Wall_112"/>
+</joint>
+
+<joint name="joint10" type="fixed">
+  <parent link="custom_hallway__Wall_100"/>
+  <child link="custom_hallway__Wall_113"/>
+</joint>
+
+<joint name="joint11" type="fixed">
+  <parent link="custom_hallway__Wall_100"/>
+  <child link="custom_hallway__Wall_114"/>
+</joint>
+
+<joint name="joint12" type="fixed">
+  <parent link="custom_hallway__Wall_100"/>
+  <child link="custom_hallway__Wall_115"/>
+</joint>
+
+<joint name="joint13" type="fixed">
+  <parent link="custom_hallway__Wall_100"/>
+  <child link="custom_hallway__Wall_116"/>
+</joint>
+
+<joint name="joint14" type="fixed">
+  <parent link="custom_hallway__Wall_100"/>
+  <child link="custom_hallway__Wall_117"/>
+</joint>
+
+<joint name="joint15" type="fixed">
+  <parent link="custom_hallway__Wall_100"/>
+  <child link="custom_hallway__Wall_118"/>
+</joint>
+
+<joint name="joint16" type="fixed">
+  <parent link="custom_hallway__Wall_100"/>
+  <child link="custom_hallway__Wall_119"/>
+</joint>
+
+<joint name="joint17" type="fixed">
+  <parent link="custom_hallway__Wall_100"/>
+  <child link="custom_hallway__Wall_121"/>
+</joint>
+
+<joint name="joint18" type="fixed">
+  <parent link="custom_hallway__Wall_100"/>
+  <child link="custom_hallway__Wall_122"/>
+</joint>
+
+<joint name="joint19" type="fixed">
+  <parent link="custom_hallway__Wall_100"/>
+  <child link="custom_hallway__Wall_123"/>
+</joint>
+
+<joint name="joint20" type="fixed">
+  <parent link="custom_hallway__Wall_100"/>
+  <child link="custom_hallway__Wall_124"/>
+</joint>
+
+<joint name="joint21" type="fixed">
+  <parent link="custom_hallway__Wall_100"/>
+  <child link="custom_hallway__Wall_125"/>
+</joint>
+
+<joint name="joint22" type="fixed">
+  <parent link="custom_hallway__Wall_100"/>
+  <child link="custom_hallway__Wall_126"/>
+</joint>
+
+<joint name="joint23" type="fixed">
+  <parent link="custom_hallway__Wall_100"/>
+  <child link="custom_hallway__Wall_127"/>
+</joint>
+
+<joint name="joint24" type="fixed">
+  <parent link="custom_hallway__Wall_100"/>
+  <child link="custom_hallway__Wall_128"/>
+</joint>
+
+<joint name="joint25" type="fixed">
+  <parent link="custom_hallway__Wall_100"/>
+  <child link="custom_hallway__Wall_129"/>
+</joint>
+
+<joint name="joint26" type="fixed">
+  <parent link="custom_hallway__Wall_100"/>
+  <child link="custom_hallway__Wall_130"/>
+</joint>
+
+<joint name="joint27" type="fixed">
+  <parent link="custom_hallway__Wall_100"/>
+  <child link="custom_hallway__Wall_131"/>
+</joint>
+
+<joint name="joint28" type="fixed">
+  <parent link="custom_hallway__Wall_100"/>
+  <child link="custom_hallway__Wall_132"/>
+</joint>
+
+<joint name="joint29" type="fixed">
+  <parent link="custom_hallway__Wall_100"/>
+  <child link="custom_hallway__Wall_133"/>
+</joint>
+
+<joint name="joint30" type="fixed">
+  <parent link="custom_hallway__Wall_100"/>
+  <child link="custom_hallway__Wall_134"/>
+</joint>
+
+<joint name="joint31" type="fixed">
+  <parent link="custom_hallway__Wall_100"/>
+  <child link="custom_hallway__Wall_135"/>
+</joint>
+
+<joint name="joint32" type="fixed">
+  <parent link="custom_hallway__Wall_100"/>
+  <child link="custom_hallway__Wall_136"/>
+</joint>
+
+<joint name="joint33" type="fixed">
+  <parent link="custom_hallway__Wall_100"/>
+  <child link="custom_hallway__Wall_137"/>
+</joint>
+
+<joint name="joint34" type="fixed">
+  <parent link="custom_hallway__Wall_100"/>
+  <child link="custom_hallway__Wall_138"/>
+</joint>
+
+<joint name="joint35" type="fixed">
+  <parent link="custom_hallway__Wall_100"/>
+  <child link="custom_hallway__Wall_139"/>
+</joint>
+
+<joint name="joint36" type="fixed">
+  <parent link="custom_hallway__Wall_100"/>
+  <child link="custom_hallway__Wall_140"/>
+</joint>
+
+<joint name="joint37" type="fixed">
+  <parent link="custom_hallway__Wall_100"/>
+  <child link="custom_hallway__Wall_141"/>
+</joint>
+
+<joint name="joint38" type="fixed">
+  <parent link="custom_hallway__Wall_100"/>
+  <child link="custom_hallway__Wall_142"/>
+</joint>
+
+<joint name="joint39" type="fixed">
+  <parent link="custom_hallway__Wall_100"/>
+  <child link="custom_hallway__Wall_143"/>
+</joint>
+
+<joint name="joint40" type="fixed">
+  <parent link="custom_hallway__Wall_100"/>
+  <child link="custom_hallway__Wall_144"/>
+</joint>
+
+<joint name="joint41" type="fixed">
+  <parent link="custom_hallway__Wall_100"/>
+  <child link="custom_hallway__Wall_145"/>
+</joint>
+
+<joint name="joint42" type="fixed">
+  <parent link="custom_hallway__Wall_100"/>
+  <child link="custom_hallway__Wall_147"/>
+</joint>
+
+<joint name="joint43" type="fixed">
+  <parent link="custom_hallway__Wall_100"/>
+  <child link="custom_hallway__Wall_21"/>
+</joint>
+
+<joint name="joint44" type="fixed">
+  <parent link="custom_hallway__Wall_100"/>
+  <child link="custom_hallway__Wall_22"/>
+</joint>
+
+<joint name="joint45" type="fixed">
+  <parent link="custom_hallway__Wall_100"/>
+  <child link="custom_hallway__Wall_23"/>
+</joint>
+
+<joint name="joint46" type="fixed">
+  <parent link="custom_hallway__Wall_100"/>
+  <child link="custom_hallway__Wall_25"/>
+</joint>
+
+<joint name="joint47" type="fixed">
+  <parent link="custom_hallway__Wall_100"/>
+  <child link="custom_hallway__Wall_27"/>
+</joint>
+
+<joint name="joint48" type="fixed">
+  <parent link="custom_hallway__Wall_100"/>
+  <child link="custom_hallway__Wall_29"/>
+</joint>
+
+<joint name="joint49" type="fixed">
+  <parent link="custom_hallway__Wall_100"/>
+  <child link="custom_hallway__Wall_30"/>
+</joint>
+
+<joint name="joint50" type="fixed">
+  <parent link="custom_hallway__Wall_100"/>
+  <child link="custom_hallway__Wall_31"/>
+</joint>
+
+<joint name="joint51" type="fixed">
+  <parent link="custom_hallway__Wall_100"/>
+  <child link="custom_hallway__Wall_33"/>
+</joint>
+
+<joint name="joint52" type="fixed">
+  <parent link="custom_hallway__Wall_100"/>
+  <child link="custom_hallway__Wall_35"/>
+</joint>
+
+<joint name="joint53" type="fixed">
+  <parent link="custom_hallway__Wall_100"/>
+  <child link="custom_hallway__Wall_36"/>
+</joint>
+
+<joint name="joint54" type="fixed">
+  <parent link="custom_hallway__Wall_100"/>
+  <child link="custom_hallway__Wall_37"/>
+</joint>
+
+<joint name="joint55" type="fixed">
+  <parent link="custom_hallway__Wall_100"/>
+  <child link="custom_hallway__Wall_39"/>
+</joint>
+
+<joint name="joint56" type="fixed">
+  <parent link="custom_hallway__Wall_100"/>
+  <child link="custom_hallway__Wall_41"/>
+</joint>
+
+<joint name="joint57" type="fixed">
+  <parent link="custom_hallway__Wall_100"/>
+  <child link="custom_hallway__Wall_43"/>
+</joint>
+
+<joint name="joint58" type="fixed">
+  <parent link="custom_hallway__Wall_100"/>
+  <child link="custom_hallway__Wall_44"/>
+</joint>
+
+<joint name="joint59" type="fixed">
+  <parent link="custom_hallway__Wall_100"/>
+  <child link="custom_hallway__Wall_45"/>
+</joint>
+
+<joint name="joint60" type="fixed">
+  <parent link="custom_hallway__Wall_100"/>
+  <child link="custom_hallway__Wall_47"/>
+</joint>
+
+<joint name="joint61" type="fixed">
+  <parent link="custom_hallway__Wall_100"/>
+  <child link="custom_hallway__Wall_48"/>
+</joint>
+
+<joint name="joint62" type="fixed">
+  <parent link="custom_hallway__Wall_100"/>
+  <child link="custom_hallway__Wall_49"/>
+</joint>
+
+<joint name="joint63" type="fixed">
+  <parent link="custom_hallway__Wall_100"/>
+  <child link="custom_hallway__Wall_50"/>
+</joint>
+
+<joint name="joint64" type="fixed">
+  <parent link="custom_hallway__Wall_100"/>
+  <child link="custom_hallway__Wall_51"/>
+</joint>
+
+<joint name="joint65" type="fixed">
+  <parent link="custom_hallway__Wall_100"/>
+  <child link="custom_hallway__Wall_52"/>
+</joint>
+
+<joint name="joint66" type="fixed">
+  <parent link="custom_hallway__Wall_100"/>
+  <child link="custom_hallway__Wall_53"/>
+</joint>
+
+<joint name="joint67" type="fixed">
+  <parent link="custom_hallway__Wall_100"/>
+  <child link="custom_hallway__Wall_54"/>
+</joint>
+
+<joint name="joint68" type="fixed">
+  <parent link="custom_hallway__Wall_100"/>
+  <child link="custom_hallway__Wall_56"/>
+</joint>
+
+<joint name="joint69" type="fixed">
+  <parent link="custom_hallway__Wall_100"/>
+  <child link="custom_hallway__Wall_58"/>
+</joint>
+
+<joint name="joint70" type="fixed">
+  <parent link="custom_hallway__Wall_100"/>
+  <child link="custom_hallway__Wall_60"/>
+</joint>
+
+<joint name="joint71" type="fixed">
+  <parent link="custom_hallway__Wall_100"/>
+  <child link="custom_hallway__Wall_61"/>
+</joint>
+
+<joint name="joint72" type="fixed">
+  <parent link="custom_hallway__Wall_100"/>
+  <child link="custom_hallway__Wall_62"/>
+</joint>
+
+<joint name="joint73" type="fixed">
+  <parent link="custom_hallway__Wall_100"/>
+  <child link="custom_hallway__Wall_64"/>
+</joint>
+
+<joint name="joint74" type="fixed">
+  <parent link="custom_hallway__Wall_100"/>
+  <child link="custom_hallway__Wall_65"/>
+</joint>
+
+<joint name="joint75" type="fixed">
+  <parent link="custom_hallway__Wall_100"/>
+  <child link="custom_hallway__Wall_66"/>
+</joint>
+
+<joint name="joint76" type="fixed">
+  <parent link="custom_hallway__Wall_100"/>
+  <child link="custom_hallway__Wall_68"/>
+</joint>
+
+<joint name="joint77" type="fixed">
+  <parent link="custom_hallway__Wall_100"/>
+  <child link="custom_hallway__Wall_69"/>
+</joint>
+
+<joint name="joint78" type="fixed">
+  <parent link="custom_hallway__Wall_100"/>
+  <child link="custom_hallway__Wall_7"/>
+</joint>
+
+<joint name="joint79" type="fixed">
+  <parent link="custom_hallway__Wall_100"/>
+  <child link="custom_hallway__Wall_70"/>
+</joint>
+
+<joint name="joint80" type="fixed">
+  <parent link="custom_hallway__Wall_100"/>
+  <child link="custom_hallway__Wall_71"/>
+</joint>
+
+<joint name="joint81" type="fixed">
+  <parent link="custom_hallway__Wall_100"/>
+  <child link="custom_hallway__Wall_72"/>
+</joint>
+
+<joint name="joint82" type="fixed">
+  <parent link="custom_hallway__Wall_100"/>
+  <child link="custom_hallway__Wall_73"/>
+</joint>
+
+<joint name="joint83" type="fixed">
+  <parent link="custom_hallway__Wall_100"/>
+  <child link="custom_hallway__Wall_74"/>
+</joint>
+
+<joint name="joint84" type="fixed">
+  <parent link="custom_hallway__Wall_100"/>
+  <child link="custom_hallway__Wall_76"/>
+</joint>
+
+<joint name="joint85" type="fixed">
+  <parent link="custom_hallway__Wall_100"/>
+  <child link="custom_hallway__Wall_78"/>
+</joint>
+
+<joint name="joint86" type="fixed">
+  <parent link="custom_hallway__Wall_100"/>
+  <child link="custom_hallway__Wall_80"/>
+</joint>
+
+<joint name="joint87" type="fixed">
+  <parent link="custom_hallway__Wall_100"/>
+  <child link="custom_hallway__Wall_82"/>
+</joint>
+
+<joint name="joint88" type="fixed">
+  <parent link="custom_hallway__Wall_100"/>
+  <child link="custom_hallway__Wall_84"/>
+</joint>
+
+<joint name="joint89" type="fixed">
+  <parent link="custom_hallway__Wall_100"/>
+  <child link="custom_hallway__Wall_85"/>
+</joint>
+
+
+<joint name="joint91" type="fixed">
+  <parent link="custom_hallway__Wall_100"/>
+  <child link="custom_hallway__Wall_86"/>
+</joint>
+
+<joint name="joint92" type="fixed">
+  <parent link="custom_hallway__Wall_100"/>
+  <child link="custom_hallway__Wall_87"/>
+</joint>
+
+<joint name="joint93" type="fixed">
+  <parent link="custom_hallway__Wall_100"/>
+  <child link="custom_hallway__Wall_88"/>
+</joint>
+
+<joint name="joint94" type="fixed">
+  <parent link="custom_hallway__Wall_100"/>
+  <child link="custom_hallway__Wall_89"/>
+</joint>
+
+<joint name="joint95" type="fixed">
+  <parent link="custom_hallway__Wall_100"/>
+  <child link="custom_hallway__Wall_90"/>
+</joint>
+
+<joint name="joint96" type="fixed">
+  <parent link="custom_hallway__Wall_100"/>
+  <child link="custom_hallway__Wall_91"/>
+</joint>
+
+<joint name="joint97" type="fixed">
+  <parent link="custom_hallway__Wall_100"/>
+  <child link="custom_hallway__Wall_92"/>
+</joint>
+
+<joint name="joint98" type="fixed">
+  <parent link="custom_hallway__Wall_100"/>
+  <child link="custom_hallway__Wall_93"/>
+</joint>
+
+<joint name="joint99" type="fixed">
+  <parent link="custom_hallway__Wall_100"/>
+  <child link="custom_hallway__Wall_94"/>
+</joint>
+
+<joint name="joint100" type="fixed">
+  <parent link="custom_hallway__Wall_100"/>
+  <child link="custom_hallway__Wall_96"/>
+</joint>
+
+<joint name="joint101" type="fixed">
+  <parent link="custom_hallway__Wall_100"/>
+  <child link="custom_hallway__Wall_97"/>
+</joint>
+
+
+<joint name="joint102" type="fixed">
+  <parent link="custom_hallway__Wall_100"/>
+  <child link="custom_hallway__Wall_98"/>
+</joint>
+
+<joint name="joint103" type="fixed">
+  <parent link="custom_hallway__Wall_100"/>
+  <child link="custom_hallway__Wall_99"/>
+</joint>
+
+
+</robot>

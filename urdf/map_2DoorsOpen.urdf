@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<robot name="world">
+
+
+<link name="world">
+	<inertial>
+		<mass value="10000"/>
+		<inertia
+			ixx="100000.0" ixy="0.0" ixz="0.0"
+			iyy="100000.0" iyz="0.0"
+			izz="100000.0"/>
+	</inertial>	  
+	
+	<visual name="map_visual">
+		<origin rpy="0 0 0" xyz="0 0 0"/>
+		<geometry>
+			<mesh 
+				filename="package://robot_mo_spawn/meshes/map_2DoorsOpen.stl"
+			/>
+		</geometry>
+	</visual>
+	
+	<collision name="map_collision">	
+		<origin rpy="0 0 0" xyz="0 0 0"/>	
+		<geometry>
+			<mesh 
+				filename="package://robot_mo_spawn/meshes/map_2DoorsOpen.stl"
+			/>
+		</geometry>
+	</collision>   
+
+</link>  
+
+
+
+
+</robot>

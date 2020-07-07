@@ -1,0 +1,10 @@
+
+<launch>
+
+
+  	<arg name="map_file" default="$(find simulation)/maps/hallway_corner.yaml" />
+    <node pkg="map_server" type="map_server" name="map_server" args="$(arg map_file)">
+
+
+    </node>
+</launch>

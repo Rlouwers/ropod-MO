@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.5.1-0-g916b5db  Build Version: 1.5.7152.31018
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="robot_mo_spawn">
+  <link
+    name="base_link">
+    <inertial>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <mass
+        value="8.86383766737404E-10" />
+      <inertia
+        ixx="4.56723206931787E-12"
+        ixy="-2.2077097222925E-15"
+        ixz="-1.04901796284215E-16"
+        iyy="4.83884905421863E-12"
+        iyz="1.7504628072973E-13"
+        izz="4.56767200483111E-12" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robot_mo_spawn/meshes/drivetrain_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0 0.3 0.7 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robot_mo_spawn/meshes/drivetrain_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="head_Link">
+    <inertial>
+      <origin
+        xyz="-1.91945355998424E-08 -0.0199999997639629 0.163454222653329"
+        rpy="0 0 0" />
+      <mass
+        value="0.0450433766842122" />
+      <inertia
+        ixx="1.81877794346208E-05"
+        ixy="1.60223999635036E-11"
+        ixz="4.66478017322657E-13"
+        iyy="4.21634991649581E-06"
+        iyz="1.80895254841783E-13"
+        izz="2.17080553486099E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0.2 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robot_mo_spawn/meshes/head_Link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0 0.3 0.7 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robot_mo_spawn/meshes/head_Link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="head"
+    type="fixed">
+    <origin
+      xyz="0 0.0600000000000004 0.392"
+      rpy="1.57067850821101 0.0291452635664948 3.14159" />
+    <parent
+      link="base_link" />
+    <child
+      link="head_Link" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+</robot>
+
+<!--
+      <origin
+        xyz="-1.91945355998424E-08 -0.0199999997639629 0.163454222653329"
+        rpy="0 0 0" />
+    <origin
+      xyz="0 0.0600000000000004 0.392"
+      rpy="1.57067850821101 0.0291452635664948 3.14159" />
+-->

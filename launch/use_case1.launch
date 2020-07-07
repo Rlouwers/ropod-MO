@@ -1,0 +1,105 @@
+<?xml version="1.0"?>
+<launch>
+  <arg
+    name="model" />
+  <arg
+    name="gui"
+    default="False" />
+
+  <param
+    name="world"
+    textfile="$(find robot_mo_spawn)/urdf/use_case1.urdf"/>
+
+	<node pkg="tf" type="static_transform_publisher" name="use_case1_11" args="0.0 0.0 0.0 0.0 0.0 0.0 world use_case1__Wall_11 100"/>
+	<node pkg="tf" type="static_transform_publisher" name="use_case1_20" args="0.0 0.0 0.0 0.0 0.0 0.0 world use_case1__Wall_12 100"/>
+	<node pkg="tf" type="static_transform_publisher" name="use_case1_21" args="0.0 0.0 0.0 0.0 0.0 0.0 world use_case1__Wall_13 100"/>
+	<node pkg="tf" type="static_transform_publisher" name="use_case1_22" args="0.0 0.0 0.0 0.0 0.0 0.0 world use_case1__Wall_14 100"/>
+	<node pkg="tf" type="static_transform_publisher" name="use_case1_24" args="0.0 0.0 0.0 0.0 0.0 0.0 world use_case1__Wall_15 100"/>
+	<node pkg="tf" type="static_transform_publisher" name="use_case1_25" args="0.0 0.0 0.0 0.0 0.0 0.0 world use_case1__Wall_16 100"/>
+	<node pkg="tf" type="static_transform_publisher" name="use_case1_26" args="0.0 0.0 0.0 0.0 0.0 0.0 world use_case1__Wall_17 100"/>
+	<node pkg="tf" type="static_transform_publisher" name="use_case1_27" args="0.0 0.0 0.0 0.0 0.0 0.0 world use_case1__Wall_18 100"/>
+	<node pkg="tf" type="static_transform_publisher" name="use_case1_28" args="0.0 0.0 0.0 0.0 0.0 0.0 world use_case1__Wall_19 100"/>
+	<node pkg="tf" type="static_transform_publisher" name="use_case1_29" args="0.0 0.0 0.0 0.0 0.0 0.0 world use_case1__Wall_20 100"/>
+	<node pkg="tf" type="static_transform_publisher" name="use_case1_30" args="0.0 0.0 0.0 0.0 0.0 0.0 world use_case1__Wall_21 100"/>
+	<node pkg="tf" type="static_transform_publisher" name="use_case1_31" args="0.0 0.0 0.0 0.0 0.0 0.0 world use_case1__Wall_22 100"/>
+	<node pkg="tf" type="static_transform_publisher" name="use_case1_32" args="0.0 0.0 0.0 0.0 0.0 0.0 world use_case1__Wall_23 100"/>
+	<node pkg="tf" type="static_transform_publisher" name="use_case1_33" args="0.0 0.0 0.0 0.0 0.0 0.0 world use_case1__Wall_24 100"/>
+	<node pkg="tf" type="static_transform_publisher" name="use_case1_34" args="0.0 0.0 0.0 0.0 0.0 0.0 world use_case1__Wall_25 100"/>
+	<node pkg="tf" type="static_transform_publisher" name="use_case1_35" args="0.0 0.0 0.0 0.0 0.0 0.0 world use_case1__Wall_26 100"/>
+	<node pkg="tf" type="static_transform_publisher" name="use_case1_38" args="0.0 0.0 0.0 0.0 0.0 0.0 world use_case1__Wall_27 100"/>
+	<node pkg="tf" type="static_transform_publisher" name="use_case1_39" args="0.0 0.0 0.0 0.0 0.0 0.0 world use_case1__Wall_28 100"/>
+	<node pkg="tf" type="static_transform_publisher" name="use_case1_40" args="0.0 0.0 0.0 0.0 0.0 0.0 world use_case1__Wall_29 100"/>
+	<node pkg="tf" type="static_transform_publisher" name="use_case1_41" args="0.0 0.0 0.0 0.0 0.0 0.0 world use_case1__Wall_30 100"/>
+	<node pkg="tf" type="static_transform_publisher" name="use_case1_42" args="0.0 0.0 0.0 0.0 0.0 0.0 world use_case1__Wall_32 100"/>
+	<node pkg="tf" type="static_transform_publisher" name="use_case1_43" args="0.0 0.0 0.0 0.0 0.0 0.0 world use_case1__Wall_33 100"/>
+	<node pkg="tf" type="static_transform_publisher" name="use_case1_44" args="0.0 0.0 0.0 0.0 0.0 0.0 world use_case1__Wall_34 100"/>
+	<node pkg="tf" type="static_transform_publisher" name="use_case1_45" args="0.0 0.0 0.0 0.0 0.0 0.0 world use_case1__Wall_35 100"/>
+	<node pkg="tf" type="static_transform_publisher" name="use_case1_47" args="0.0 0.0 0.0 0.0 0.0 0.0 world use_case1__Wall_36 100"/>
+	<node pkg="tf" type="static_transform_publisher" name="use_case1_48" args="0.0 0.0 0.0 0.0 0.0 0.0 world use_case1__Wall_37 100"/>
+	<node pkg="tf" type="static_transform_publisher" name="use_case1_49" args="0.0 0.0 0.0 0.0 0.0 0.0 world use_case1__Wall_38 100"/>
+	<node pkg="tf" type="static_transform_publisher" name="use_case1_50" args="0.0 0.0 0.0 0.0 0.0 0.0 world use_case1__Wall_39 100"/>
+	<node pkg="tf" type="static_transform_publisher" name="use_case1_51" args="0.0 0.0 0.0 0.0 0.0 0.0 world use_case1__Wall_40 100"/>
+	<node pkg="tf" type="static_transform_publisher" name="use_case1_52" args="0.0 0.0 0.0 0.0 0.0 0.0 world use_case1__Wall_41 100"/>
+	<node pkg="tf" type="static_transform_publisher" name="use_case1_53" args="0.0 0.0 0.0 0.0 0.0 0.0 world use_case1__Wall_42 100"/>
+	<node pkg="tf" type="static_transform_publisher" name="use_case1_54" args="0.0 0.0 0.0 0.0 0.0 0.0 world use_case1__Wall_43 100"/>
+	<node pkg="tf" type="static_transform_publisher" name="use_case1_55" args="0.0 0.0 0.0 0.0 0.0 0.0 world use_case1__Wall_44 100"/>
+	<node pkg="tf" type="static_transform_publisher" name="use_case1_58" args="0.0 0.0 0.0 0.0 0.0 0.0 world use_case1__Wall_45 100"/>
+	<node pkg="tf" type="static_transform_publisher" name="use_case1_59" args="0.0 0.0 0.0 0.0 0.0 0.0 world use_case1__Wall_46 100"/>
+	<node pkg="tf" type="static_transform_publisher" name="use_case1_60" args="0.0 0.0 0.0 0.0 0.0 0.0 world use_case1__Wall_47 100"/>
+	<node pkg="tf" type="static_transform_publisher" name="use_case1_61" args="0.0 0.0 0.0 0.0 0.0 0.0 world use_case1__Wall_48 100"/>
+	<node pkg="tf" type="static_transform_publisher" name="use_case1_62" args="0.0 0.0 0.0 0.0 0.0 0.0 world use_case1__Wall_49 100"/>
+	<node pkg="tf" type="static_transform_publisher" name="use_case1_63" args="0.0 0.0 0.0 0.0 0.0 0.0 world use_case1__Wall_51 100"/>
+	<node pkg="tf" type="static_transform_publisher" name="use_case1_64" args="0.0 0.0 0.0 0.0 0.0 0.0 world use_case1__Wall_52 100"/>
+	<node pkg="tf" type="static_transform_publisher" name="use_case1_65" args="0.0 0.0 0.0 0.0 0.0 0.0 world use_case1__Wall_53 100"/>
+	<node pkg="tf" type="static_transform_publisher" name="use_case1_66" args="0.0 0.0 0.0 0.0 0.0 0.0 world use_case1__Wall_54 100"/>
+	<node pkg="tf" type="static_transform_publisher" name="use_case1_67" args="0.0 0.0 0.0 0.0 0.0 0.0 world use_case1__Wall_55 100"/>
+	<node pkg="tf" type="static_transform_publisher" name="use_case1_69" args="0.0 0.0 0.0 0.0 0.0 0.0 world use_case1__Wall_56 100"/>
+	<node pkg="tf" type="static_transform_publisher" name="use_case1_70" args="0.0 0.0 0.0 0.0 0.0 0.0 world use_case1__Wall_57 100"/>
+	<node pkg="tf" type="static_transform_publisher" name="use_case1_71" args="0.0 0.0 0.0 0.0 0.0 0.0 world use_case1__Wall_58 100"/>
+	<node pkg="tf" type="static_transform_publisher" name="use_case1_72" args="0.0 0.0 0.0 0.0 0.0 0.0 world use_case1__Wall_59 100"/>
+	<node pkg="tf" type="static_transform_publisher" name="use_case1_73" args="0.0 0.0 0.0 0.0 0.0 0.0 world use_case1__Wall_60 100"/>
+	<node pkg="tf" type="static_transform_publisher" name="use_case1_74" args="0.0 0.0 0.0 0.0 0.0 0.0 world use_case1__Wall_61 100"/>
+	<node pkg="tf" type="static_transform_publisher" name="use_case1_75" args="0.0 0.0 0.0 0.0 0.0 0.0 world use_case1__Wall_63 100"/>
+	<node pkg="tf" type="static_transform_publisher" name="use_case1_76" args="0.0 0.0 0.0 0.0 0.0 0.0 world use_case1__Wall_64 100"/>
+	<node pkg="tf" type="static_transform_publisher" name="use_case1_77" args="0.0 0.0 0.0 0.0 0.0 0.0 world use_case1__Wall_65 100"/>
+	<node pkg="tf" type="static_transform_publisher" name="use_case1_78" args="0.0 0.0 0.0 0.0 0.0 0.0 world use_case1__Wall_66 100"/>
+	<node pkg="tf" type="static_transform_publisher" name="use_case1_79" args="0.0 0.0 0.0 0.0 0.0 0.0 world use_case1__Wall_67 100"/>
+	<node pkg="tf" type="static_transform_publisher" name="use_case1_80" args="0.0 0.0 0.0 0.0 0.0 0.0 world use_case1__Wall_68 100"/>
+	<node pkg="tf" type="static_transform_publisher" name="use_case1_81" args="0.0 0.0 0.0 0.0 0.0 0.0 world use_case1__Wall_69 100"/>
+	<node pkg="tf" type="static_transform_publisher" name="use_case1_82" args="0.0 0.0 0.0 0.0 0.0 0.0 world use_case1__Wall_70 100"/>
+	<node pkg="tf" type="static_transform_publisher" name="use_case1_83" args="0.0 0.0 0.0 0.0 0.0 0.0 world use_case1__Wall_71 100"/>
+	<node pkg="tf" type="static_transform_publisher" name="use_case1_84" args="0.0 0.0 0.0 0.0 0.0 0.0 world use_case1__Wall_72 100"/>
+	<node pkg="tf" type="static_transform_publisher" name="use_case1_85" args="0.0 0.0 0.0 0.0 0.0 0.0 world use_case1__Wall_73 100"/>
+	<node pkg="tf" type="static_transform_publisher" name="use_case1_86" args="0.0 0.0 0.0 0.0 0.0 0.0 world use_case1__Wall_74 100"/>
+	<node pkg="tf" type="static_transform_publisher" name="use_case1_87" args="0.0 0.0 0.0 0.0 0.0 0.0 world use_case1__Wall_75 100"/>
+	<node pkg="tf" type="static_transform_publisher" name="use_case1_88" args="0.0 0.0 0.0 0.0 0.0 0.0 world use_case1__Wall_76 100"/>
+	<node pkg="tf" type="static_transform_publisher" name="use_case1_89" args="0.0 0.0 0.0 0.0 0.0 0.0 world use_case1__Wall_77 100"/>
+	<node pkg="tf" type="static_transform_publisher" name="use_case1_90" args="0.0 0.0 0.0 0.0 0.0 0.0 world use_case1__Wall_78 100"/>
+	<node pkg="tf" type="static_transform_publisher" name="use_case1_93" args="0.0 0.0 0.0 0.0 0.0 0.0 world use_case1__Wall_79 100"/>
+	<!--<node pkg="tf" type="static_transform_publisher" name="use_case1_91" args="0.0 0.0 0.0 0.0 0.0 0.0 world use_case1__box_1 100"/>-->
+	<!--<node pkg="tf" type="static_transform_publisher" name="use_case1_92" args="0.0 0.0 0.0 0.0 0.0 0.0 world use_case1__box_2 100"/>-->
+	<node pkg="tf" type="static_transform_publisher" name="use_case1_94" args="0.0 0.0 0.0 0.0 0.0 0.0 world use_case1__Floor_7 100"/>
+	<!--<node pkg="tf" type="static_transform_publisher" name="use_case1_95" args="0.0 0.0 0.0 0.0 0.0 0.0 world use_case1__Floor_8 100"/>-->
+	<node pkg="tf" type="static_transform_publisher" name="use_case1_96" args="0.0 0.0 0.0 0.0 0.0 0.0 world bed 100"/>
+
+	<param
+	name="mo"
+	textfile="$(find robot_mo_spawn)/urdf/ropod.urdf" />
+	
+	<!--<param
+	name="mo2"
+	textfile="$(find robot_mo_spawn)/urdf/robot_mo_spawn2.urdf" />-->
+	
+	<param
+	name="use_gui"
+	value="$(arg gui)" />
+	name="robot_state_publisher"
+	pkg="robot_state_publisher"
+	type="state_publisher" />
+	<node
+	name="rviz"
+	pkg="rviz"
+	type="rviz"
+	args="-d $(find robot_mo_spawn)/urdf.rviz" />
+</launch>
+

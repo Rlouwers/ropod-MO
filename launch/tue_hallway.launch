@@ -1,0 +1,24 @@
+<launch>
+  <arg
+    name="model" />
+  <arg
+    name="gui"
+    default="False" />
+  <param
+    name="mo"
+    textfile="$(find robot_mo_spawn)/urdf/robot_mo_spawn.urdf" />
+  <param
+    name="world"
+    textfile="$(find robot_mo_spawn)/urdf/map_2DoorsOpen.urdf" />
+  <param
+    name="use_gui"
+    value="$(arg gui)" />
+    name="robot_state_publisher"
+    pkg="robot_state_publisher"
+    type="state_publisher" />
+  <node
+    name="rviz"
+    pkg="rviz"
+    type="rviz"
+    args="-d $(find robot_mo_spawn)/urdf.rviz" />
+</launch>
